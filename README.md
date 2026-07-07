@@ -6,7 +6,6 @@ This project is a practical application of training a Machine Learning model to 
 * `main.py`: The Python script that loads the model, processes the input image, and predicts its class.
 * `keras_Model.h5`: The trained model exported in TensorFlow/Keras format.
 * `labels.txt`: A text file containing the names of the classes the model was trained on.
-* `README.md`: This file, which contains project documentation and instructions.
 * **Screenshot:** An image showing the successful execution of the code and the terminal output.
 
 ## 🛠 Prerequisites
