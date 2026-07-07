@@ -6,7 +6,6 @@ import numpy as np
 np.set_printoptions(suppress=True)
 
 # Load the model
-# تأكد أن هذه الملفات موجودة في نفس المجلد الذي تشغل منه الكود
 model = load_model("keras_Model.h5", compile=False)
 
 # Load the labels
@@ -15,7 +14,7 @@ class_names = open("labels.txt", "r").readlines()
 # Create the array of the right shape to feed into the keras model
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
-# مسار صورتك المعدل بحرف r لتفادي مشاكل نظام ويندوز
+
 image = Image.open(r"C:\Users\wasee\Downloads\AP55.jpeg").convert("RGB")
 
 # resizing the image to be at least 224x224 and then cropping from the center
