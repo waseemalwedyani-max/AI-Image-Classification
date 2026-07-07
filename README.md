@@ -1,6 +1,8 @@
 # AI-Image-Recognition
 # Image Classification Project using Teachable Machine and Python
 
+# Image Classification Project using Teachable Machine and Python
+
 This project is a practical application of training a Machine Learning model to recognize and classify images using Google's **Teachable Machine**, then exporting and running it locally via **Python** within the **Anaconda** environment.
 
 ## 📁 Repository Structure
@@ -15,3 +17,29 @@ To run the code successfully, make sure to install the following libraries insid
 
 ```bash
 pip install tensorflow pillow numpy
+```
+
+## 🚀 How to Run
+1. Download all the files in this repository and place them in a single folder on your local machine.
+
+2. Open the **Anaconda Prompt**.
+
+3. Activate the project's environment using the following command:
+```bash
+conda activate TeachableMachine
+```
+
+4. Navigate to the folder containing the files using the `cd` command (example):
+```bash
+cd C:\Users\wasee\Downloads\converted_keras
+```
+
+5. Run the Python script to test the model:
+```bash
+python main.py
+```
+
+## 📊 Results
+When testing the model on the input image, it successfully recognized and classified it with very high confidence:
+* **Predicted Class:** Appels (Apples)
+* **Confidence Score:** 0.998 (equivalent to 99.8%)
